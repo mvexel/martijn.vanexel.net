@@ -1,6 +1,6 @@
 ---
 title: "Capturing and uploading 360° imagery with Mapillary: 2. BIKE"
-tags: openstreetmap, mapillary
+tags: [openstreetmap, mapillary]
 date: 2023-02-26
 ---
 

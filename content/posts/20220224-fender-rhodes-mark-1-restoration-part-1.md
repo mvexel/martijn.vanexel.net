@@ -1,7 +1,7 @@
 ---
 title: rhodes mark 1 restoration - part 1
 date: 2022-02-24
-tags: music
+tags: [music]
 ---
 
 ## Back Story: 1994 - 2021

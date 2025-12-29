@@ -1,7 +1,7 @@
 ---
 title: experiments with pyosmium, part 2
 date: 2022-02-03
-tags: openstreetmap
+tags: [openstreetmap]
 ---
 
 *You are looking at the second of a 2-part blog post exploring how to extract useful information out of OSM data using python and PyOsmium. Check [Part 1](/20220126-pyosmium-part1) first and then come back! See you soon.*

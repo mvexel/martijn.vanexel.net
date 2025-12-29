@@ -1,6 +1,6 @@
 ---
 title: "trip to kansas"
-tags: photography
+tags: [photography]
 date: 2022-09-26
 ---
 

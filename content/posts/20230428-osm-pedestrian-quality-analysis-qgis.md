@@ -1,6 +1,6 @@
 ---
 title: "OSM Pedestrian Density Visualization"
-tags: openstreetmap, gis, qgis, maps
+tags: [openstreetmap, gis, qgis, maps]
 date: 2023-04-28
 ---
 

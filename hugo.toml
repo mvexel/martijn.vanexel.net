@@ -1,0 +1,15 @@
+baseURL = "https://martijn.vanexel.net/"
+languageCode = "en-us"
+title = "Martijn van Exel"
+
+[params]
+  description = "OpenStreetMap Data Quality Expert"
+  author = "Martijn van Exel"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow HTML in markdown
+
+[taxonomies]
+  tag = "tags"

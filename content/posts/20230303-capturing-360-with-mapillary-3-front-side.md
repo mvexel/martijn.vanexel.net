@@ -1,6 +1,6 @@
 ---
 title: "Capturing and uploading 360° imagery with Mapillary: 3. Front vs Side"
-tags: openstreetmap, mapillary
+tags: [openstreetmap, mapillary]
 date: 2023-03-03
 ---
 This post is a follow-up on my series on GoPro Max panoramic imagery capture for Mapillary. Find part 1 [here](https://mvexel.prose.sh/20230223-capturing-360-with-mapillary) and part 2 [here](https://mvexel.prose.sh/20230226-capturing-360-with-mapillary-2-bike).

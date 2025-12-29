@@ -1,6 +1,6 @@
 ---
 title: "dealing with peaks and troughs"
-tags: reflection
+tags: [reflection]
 date: 2022-08-24
 ---
 

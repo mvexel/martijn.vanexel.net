@@ -1,6 +1,6 @@
 ---
 title: "trip to hawai'i"
-tags: photography, travel
+tags: [photography, travel]
 date: 2023-01-03
 ---
 

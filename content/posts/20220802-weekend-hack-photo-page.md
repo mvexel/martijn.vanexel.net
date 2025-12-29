@@ -1,6 +1,6 @@
 ---
 title: "weekend hack: photo page"
-tags: programming, hobbies
+tags: [programming, hobbies]
 date: 2022-08-02
 ---
 

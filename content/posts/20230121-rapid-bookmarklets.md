@@ -1,6 +1,6 @@
 ---
 title: "RapiD Bookmarklets"
-tags: openstreetmap, development
+tags: [openstreetmap, development]
 date: 2023-01-21
 ---
 

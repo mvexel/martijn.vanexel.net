@@ -2,9 +2,12 @@
 title: What The Quad update
 description: WKT, GeoJSON and bounding box mode
 date: 2025-09-16
-tags: [software, programming, open source]
+tags:
+  - software
+  - programming
+  - opensource
 image: https://images.rtijn.org/2025/quad-sep-2025.png
-card: summary # or summary_large_image
+card: summary
 draft: false
 toc: false
 aliases:

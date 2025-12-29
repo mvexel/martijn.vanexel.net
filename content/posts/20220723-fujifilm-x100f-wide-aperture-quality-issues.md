@@ -1,7 +1,7 @@
 ---
 title: fujifilm x100f wide aperture problems
 date: 2022-07-23
-tags: photography
+tags: [photography]
 ---
 
 I had had suspicions for a while that my Fujifilm X100f has image quality issues when using wide apertures (f/4 and wider). Some reviews mention poor corner performance at large apertures, but I don't think it's just the corners. Shooting subjects at close distance, center frame performance seemed poor as well with loss of detail, some ghosting and chromatic aberration. So I thought I'd finally run some tests. It's worse than I thought!

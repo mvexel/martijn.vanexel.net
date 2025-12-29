@@ -1,7 +1,7 @@
 ---
 title: 'adding microsoft building footprints to OSM with MapRoulette: why, and how'
 date: 2022-05-23
-tags: openstreetmap
+tags: [openstreetmap]
 ---
 
 Microsoft [released a machine-generated dataset of building footprints for the United States some years ago](https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data/). The footprints are derived from aerial imagery. This works well, most of the time. Where you run into problems is in rural areas, especially where there's natural features and topography that throws the machine learning off. Then the machine starts to think all kinds of things are buildings:

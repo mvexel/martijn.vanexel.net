@@ -1,6 +1,6 @@
 ---
 title: "adding high quality gis data to osm, one feature at a time"
-tags: openstreetmap
+tags: [openstreetmap]
 date: 2022-09-27
 ---
 
