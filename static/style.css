@@ -1,0 +1,181 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 0.3rem;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-item h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.2rem 0;
+}
+
+.post-item a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.post-item p {
+    margin: 0 0 0.2rem 0;
+}
+
+.post-item a:hover {
+    text-decoration: underline;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.7rem;
+}
+
+.post-tags {
+    margin-top: 0.2rem;
+}
+
+.post-tags a {
+    background: #f0f0f0;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.post-tags a:hover {
+    background: #e0e0e0;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article h1 {
+    margin-bottom: 0.5rem;
+}
+
+pre {
+    background: #f5f5f5;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 4px;
+}
+
+code {
+    background: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* 404 Page Specific Styles */
+.error-content {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.error-code {
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+    color: #0066cc;
+    line-height: 1;
+}
+
+.error-message {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #666;
+}
+
+.error-description {
+    font-size: 1rem;
+    margin: 1rem 0 2rem 0;
+    color: #888;
+}
+
+.home-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.home-link:hover {
+    background: #0052a3;
+    text-decoration: none;
+}
