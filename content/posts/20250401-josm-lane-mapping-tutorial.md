@@ -2,7 +2,7 @@
 title: OpenStreetMap JOSM Turn Lane Tagging Tutorial Video
 description: Learn how to tag turn lanes in OpenStreetMap using JOSM with this step-by-step video tutorial.
 date: 2025-04-08
-tags: [openstreetmap, tutorial, josm]
+tags: [openstreetmap, tutorial, josm, geo]
 image: https://images.rtijn.org/2025/josm-tutorial-og.jpeg
 card: summary_large_image
 draft: false

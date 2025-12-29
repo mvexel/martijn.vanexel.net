@@ -1,8 +1,7 @@
 ---
 title: Running JOSM as a Java Web Start application on Linux Mint
 date: 2024-06-30
-tags:
-  - openstreetmap
+tags: [openstreetmap, geo]
 description:
 ---
  On a fresh Linux Mint install, JOSM, the Java OpenStreetMap Editor, is not installed by default. There are a few ways to install JOSM, but the most straightforward ones do not give you the latest version. The only convenient way to ensure you always have the latest JOSM installed is by using Java Web Start, or JWS. JWS is a framework "that allows users to start application software for the Java Platform directly from the Internet using a web browser" (Wikipedia). Oracle, who own the official Java runtime and development kit, deprecated JWS some time ago, but there is new open source JWS-compatible software called OpenWebStart. Here's how to get this running on your Linux desktop.

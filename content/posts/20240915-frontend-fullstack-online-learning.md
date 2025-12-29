@@ -1,10 +1,7 @@
 ---
 title: Frontend / Full Stack online learning paths
 date: 2024-09-15
-tags:
-  - learning
-  - coding
-  - software
+tags: [learning, coding, software]
 description:
 ---
 

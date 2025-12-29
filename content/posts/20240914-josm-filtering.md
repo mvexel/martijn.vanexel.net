@@ -1,12 +1,7 @@
 ---
 title: "JOSM tip: filtering"
 date: 2024-09-14
-tags:
-  - gis
-  - mapping
-  - openstreetmap
-  - osm
-  - josm
+tags: [gis, mapping, openstreetmap, osm, josm, geo]
 description:
 ---
 

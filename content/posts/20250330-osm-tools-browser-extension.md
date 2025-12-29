@@ -2,10 +2,7 @@
 title: Building an OSM Tools Quick Access Browser Extension
 description: This post was 95% written by AI. This is an absolutely terrible idea, as you can see. None of my other posts are written in whole or in part by AI.
 date: 2025-03-30
-tags:
-  - openstreetmap
-  - development
-  - ai-written
+tags: [openstreetmap, development, ai-written, geo]
 card: summary_large_image
 draft: false
 toc: false

@@ -1,9 +1,7 @@
 ---
 title: Quadkeys are sometimes hard to find
 date: 2024-09-13
-tags:
-  - gis
-  - mapping
+tags: [gis, mapping, geo]
 description:
 ---
 

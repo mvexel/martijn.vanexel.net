@@ -7,4 +7,4 @@ I write software to make geospatial data work for you. I have worked with geo-da
 
 Find me on [LinkedIn](https://linkedin.com/in/mvexel), [Mastodon](https://en.osm.town/@mvexel), [GitHub](https://github.com/mvexel), [OpenStreetMap](https://www.openstreetmap.org/user/mvexel).
 
-I infrequently write about what I do, experience, and think about. Tags are your friend here.
+I infrequently write about what I do, experience, and think about. Tags are your friend here, for example [#geo](/tags/geo).

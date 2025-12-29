@@ -2,8 +2,7 @@
 title: My Obsidian Daily Note Template
 description: I went down a little Obsidian templater rabbit hole..
 date: 2025-03-28
-tags:
-  - productivity
+tags: [productivity]
 image: https://images.rtijn.org/2025/obs-template.png
 card: summary # or summary_large_image
 draft: false

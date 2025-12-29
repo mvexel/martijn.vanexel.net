@@ -2,7 +2,7 @@
 title: Pedestrian Accessibility in OpenStreetMap
 description: Developing a detection algorithm for pedestrian infrastructure map completeness in OpenStreetMap data
 date: 2025-08-15
-tags: [openstreetmap, pedestrian, accessibility, gis, analysis]
+tags: [openstreetmap, pedestrian, accessibility, gis, analysis, geo]
 image: https://images.rtijn.org/blog/20250820-pedestrian/image2.jpg
 card: summary # or summary_large_image
 draft: false

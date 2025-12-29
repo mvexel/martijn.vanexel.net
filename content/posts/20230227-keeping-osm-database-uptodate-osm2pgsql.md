@@ -1,6 +1,6 @@
 ---
 title: "Keeping a thematic OpenStreetMap database up-to-date with osm2pgsql"
-tags: [openstreetmap, gis, database, postgresql]
+tags: [openstreetmap, gis, database, postgresql, geo]
 date: 2023-02-27
 ---
 

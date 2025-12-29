@@ -2,7 +2,7 @@
 title: Meet Your Mappers 1.2 is out
 description: Geolocation, no more log in and a clear button!
 date: 2025-09-03
-tags: [openstreetmap, software, programming, community]
+tags: [openstreetmap, software, programming, community, geo]
 image: https://images.rtijn.org/blog/20250903-mym120/mym-1-2-0.png
 card: summary # or summary_large_image
 draft: false

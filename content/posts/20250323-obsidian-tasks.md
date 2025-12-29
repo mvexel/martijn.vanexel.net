@@ -1,8 +1,7 @@
 ---
 title: Obsidian Tasks
 date: 2025-03-23
-tags:
-  - productivity
+tags: [productivity]
 description: How (and why) I use Obsidian Tasks
 ---
 

@@ -2,7 +2,7 @@
 title: Meet Your Mappers - Discover OpenStreetMappers Around You!
 description: Meet Your Mappers is a new tool I wrote that lets you find active OSM mappers around you. It is free for anyone to use.
 date: 2025-04-01
-tags: [openstreetmap]
+tags: [openstreetmap, geo]
 image: https://images.rtijn.org/2025/mym.webp
 card: summary # or summary_large_image
 draft: false
