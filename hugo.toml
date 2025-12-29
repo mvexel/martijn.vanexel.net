@@ -6,6 +6,9 @@ title = "Martijn van Exel"
   description = "OpenStreetMap Data Quality Expert"
   author = "Martijn van Exel"
 
+[permalinks]
+  posts = "/:filename/"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
