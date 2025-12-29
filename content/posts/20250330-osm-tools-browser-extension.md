@@ -8,8 +8,6 @@ draft: false
 toc: false
 ---
 
-# Building an OSM Tools Quick Access Browser Extension
-
 As an active OpenStreetMap (OSM) contributor, I often find myself switching between various OSM-related tools while mapping. Each tool serves a specific purpose - from editing with different editors to analyzing data with specialized visualization tools. I frequently found myself manually copying coordinates from the OSM website URL and pasting them into other tools, which was tedious and time-consuming.
 
 To solve this problem, I decided to [build](https://github.com/mvexel/osm-tools-extension) a browser extension that would provide quick access to these tools directly from any OSM map page. In this post, I'll walk through the technical aspects of building the OSM Tools Quick Access extension, explaining the architecture, key features, and challenges encountered along the way.

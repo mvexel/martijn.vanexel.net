@@ -4,8 +4,6 @@ tags: [openstreetmap, mapillary, geo]
 date: 2023-02-26
 ---
 
-# Mapillary 360° capture part 2: bike
-
 I [posted a couple of days ago](https://www.openstreetmap.org/user/mvexel/diary/401037) about my first captures with the GoPro MAX camera I have on loan and uploading to Mapillary. This all went pretty smooth, so I wanted to capture while biking. I bike around town a fair amount and you can cover more ground in the same amount of time compared to walking, so I was eager to try it.
 
 Years ago, I captured Mapillary imagery with my regular GoPro HERO 3+ camera mounted on my bike:

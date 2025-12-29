@@ -43,6 +43,6 @@ After finishing this post, I consider the project done for now. I frequently fal
 
 ![alt text](https://images.rtijn.org/blog/20250820-timetracker/image3.png)
 
-## **Postscript: On Claude**
+## Postscript: On Claude
 
 I have not been living under a rock. Initially skeptical, I have become an enthusiastic user of Claude Code. I think it is an amazing and extremely powerful tool. I have used it in this project for two purposes: learning and writing tests. Those occupy opposite ends of the interestingness spectrum Learning is the most beautiful thing in the world and I would do it all day if I could. I ask Claude questions all the time, about what I am doing, how I could do it better, to discuss architecture (yes even a simple project like this has one!) and to help me learn modern Javscript, which I don’t know very well but is useful to know these days. Writing tests on the other hand is the absolute most boring thing that has ever been invented. Coding assistants do it very well, giving me more time to do work on better software.

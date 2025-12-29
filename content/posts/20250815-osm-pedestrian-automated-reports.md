@@ -17,7 +17,7 @@ One of their accomplishments is a very clever classification system that categor
 
 ![alt text](https://images.rtijn.org/blog/20250820-pedestrian/image10.jpg)
 
-# **OpenStreetMap in Salt Lake City**
+## OpenStreetMap in Salt Lake City
 
 I run a local OSM group in my home town of Salt Lake City. We hold monthly meetings where mappers come together to share, learn and map. We recently held a special Map Night to focus on sidewalks and crossings. This proved a popular theme: 10 people showed up and we spent an evening mapping pedestrian features together.
 
@@ -25,7 +25,7 @@ I run a local OSM group in my home town of Salt Lake City. We hold monthly meeti
 
 This event got me really excited to dive deeper into this question of quality. Could I run an analysis that could point our group, and mapping groups everywhere, to specific intersections where work still needs to be done?
 
-# **Designing a Pedestrian Infrastructure Quality Algorithm**
+## Designing a Pedestrian Infrastructure Quality Algorithm
 
 I have been involved in OSM for almost twenty years and worked on data quality analysis for a good part of that time, so I think I should be able to put something together\! Let’s look at the problem space in a bit more detail to see what we need to measure. Let’s look at an intersection that would represent the “Gold Standard”
 
@@ -57,7 +57,7 @@ I then classify intersections into a number of buckets:
 
 I wrapped this analysis in a Python script with a number of parameters that can be tweaked based on the local situation or false negative tolerance.
 
-# **Results**
+## Results
 
 Running this analysis on Salt Lake City takes 50 seconds on my M1 MacBook pro, and that includes OSMnx retrieving the network graph.
 
@@ -68,7 +68,7 @@ In spite of our local mapping community’s intense focus on pedestrian infrastr
 * 579 have sidewalks but no crossing information  
 * 1216 need more curb information
 
-## **Missing Sidewalks**
+## Missing Sidewalks
 
 Here are the 464 intersections in Salt Lake City that, according to my analysis, have no sidewalk information at all.
 
@@ -84,7 +84,7 @@ There are false positives too, like this intersection that has sidewalk and even
 
 ![alt text](https://images.rtijn.org/blog/20250820-pedestrian/image13.jpg)
 
-## **Missing Crossings**
+## Missing Crossings
 
 This is a map of the 579 intersections that have sidewalks around, but no complete crossing information:
 
@@ -100,7 +100,7 @@ Many intersections identified as having sidewalks but no crossings are actually 
 
 ![alt text](https://images.rtijn.org/blog/20250820-pedestrian/image8.jpg)
 
-## **Missing Curb Cuts**
+## Missing Curb Cuts
 
 Here is a map of the 1216 intersections that still need detailed curb cut mapping work:
 
@@ -110,7 +110,7 @@ Such as this colorful intersection here:
 
 ![alt text](https://images.rtijn.org/blog/20250820-pedestrian/image11jpg)
 
-# **Conclusions and Further Work**
+## Conclusions and Further Work
 
 I am happy with this analysis result. It required a day of coding and iteration, and the result is a jumble of spaghetti code that needs clean up. I will iterate on it some more. The results could be better at complex intersections where a separated highway is involved, like here:
 
