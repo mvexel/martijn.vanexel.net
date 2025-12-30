@@ -7,7 +7,7 @@ title = "Martijn van Exel"
   author = "Martijn van Exel"
 
 [permalinks]
-  posts = "/:filename/"
+  posts = "/:contentbasename/"
 
 [markup]
   [markup.goldmark]
