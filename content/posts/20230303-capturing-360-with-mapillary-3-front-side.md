@@ -3,7 +3,7 @@ title: "Capturing and uploading 360° imagery with Mapillary: 3. Front vs Side"
 tags: [openstreetmap, mapillary, geo]
 date: 2023-03-03
 ---
-This post is a follow-up on my series on GoPro Max panoramic imagery capture for Mapillary. Find part 1 [here](https://mvexel.prose.sh/20230223-capturing-360-with-mapillary) and part 2 [here](https://mvexel.prose.sh/20230226-capturing-360-with-mapillary-2-bike).
+This post is a follow-up on my series on GoPro Max panoramic imagery capture for Mapillary. Find part 1 [here](/20230223-capturing-360-with-mapillary/) and part 2 [here](/20230226-capturing-360-with-mapillary-2-bike/).
 
 To capture true 360 degree images with a camera that has just two lenses, compromises are unavoidable. Optics dictate that a lens that captures a 180 degree field of view will have some image sharpness falloff at the edges of the field of view. I hadn't considered this when I first started capturing with the GoPro MAX. I just mounted it the way I would a regular GoPro and didn't give it another thought:
 

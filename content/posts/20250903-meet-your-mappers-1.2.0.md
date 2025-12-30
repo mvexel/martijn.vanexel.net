@@ -13,9 +13,9 @@ aliases:
 I updated the [Meet Your Mappers](https://mappers.osm.lol/) tool to version 1.2.
 Meet Your Mappers is a website I made a while ago that lets OSM mappers find active peers in their area. 
 I use it myself to find new mappers to invite to [OSM Utah](https://osmutah.org/) meetups. 
-I wrote about Meet Your Mappers in more detail [elsewhere on this blog](https://mvexel.prose.sh/20250401-meetyourmappers). 
+I wrote about Meet Your Mappers in more detail [elsewhere on this blog](/20250401-meetyourmappers/). 
 I also talked about it at The State of the Map U.S. conference in Boston earlier this year. 
-My slides from that presentation are [here](https://mvexel.prose.sh/20250524-meet-your-mappers-sotmus-2025) 
+My slides from that presentation are [here](/20250524-meet-your-mappers-sotmus-2025/) 
 and you can watch the session [here](https://youtu.be/x1eGX54DC74?si=y6FaTNvAx7c-hX2R)<sup>youtube</sup>.
 
 In 1.2, I addressed a few user concerns and added a couple of small features:
