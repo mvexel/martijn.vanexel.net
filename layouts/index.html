@@ -8,7 +8,7 @@
     <ul class="post-list">
         {{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
         <li class="post-item">
-            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <div class="post-meta">
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
             </div>
@@ -18,7 +18,7 @@
             {{ with .Params.tags }}
             <div class="post-tags">
                 {{ range . }}
-                <a href="/tags/{{ . | urlize }}">#{{ . }}</a>
+                <a href="{{ printf "/tags/%s" (. | urlize) | relURL }}">#{{ . }}</a>
                 {{ end }}
             </div>
             {{ end }}

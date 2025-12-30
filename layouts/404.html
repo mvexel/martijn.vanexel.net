@@ -13,8 +13,8 @@
         <li>The content you're looking for has been removed or archived</li>
     </ul>
     
-    <p>Try browsing from the <a href="/">home page</a>, or explore posts by <a href="/tags/">tags</a> to find what you're looking for.</p>
+    <p>Try browsing from the <a href="{{ "/" | relURL }}">home page</a>, or explore posts by <a href="{{ "/tags/" | relURL }}">tags</a> to find what you're looking for.</p>
     
-    <p><a href="/" class="home-link">← Back to Home</a></p>
+    <p><a href="{{ "/" | relURL }}" class="home-link">← Back to Home</a></p>
 </div>
 {{ end }}
