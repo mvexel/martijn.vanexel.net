@@ -4,10 +4,6 @@
 public/
 resources/_gen/
 .hugo_build.lock
-hugo
-hugo.tar.gz
-LICENSE
-README.md
 
 # Obsidian
 .obsidian/
