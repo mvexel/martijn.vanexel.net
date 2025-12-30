@@ -1,10 +1,9 @@
 ---
 title: Martijn van Exel
-description: OpenStreetMap Data Quality Expert
+description:
 ---
+Hi, welcome to my place on the web. I don't keep much of a social media presence, except for [Mastodon](https://en.osm.town/@mvexel), a federated, algorithm-free twitter-style social network. Other places on the internet I frequent are [OpenStreetMap](https://www.openstreetmap.org/user/mvexel) (I love maps!), [GitHub](https://github.com/mvexel) (I love making useful software!), and [LinkedIn](https://linkedin.com/in/mvexel) (reluctantly). You can drop me a line at mvexel@gmail.com, or schedule some time to talk [here](https://cal.com/mvexel/30min).
 
-I create, implement and maintain high quality tools and systems to make geospatial data work for you. I have worked with geospatial data for over 20 years, and I know a great deal about it. You can hire me to help you. 
+In my professional life, I help companies and organizations from tiny to huge understand and use geospatial data (maps). My knowlege and experience spans the entire geodata journey: how it's made, processed, assessed, converted, filtered, and finally used. I consider my job to be the travel agent on that journey. I strive deeply understand your travel preferences and constraints, then go to work desgning and arranging your custom journey. If that involves creating missing pieces myself, I will do that too. I have done this work for twenty years. Using domain-spacific data, tools and standards for such a span of time offers me the perspective to choose the best tools for the job, even if that is not always the shiniest. I love what I do.
 
-Find me on [LinkedIn](https://linkedin.com/in/mvexel), [Mastodon](https://en.osm.town/@mvexel), [GitHub](https://github.com/mvexel), [OpenStreetMap](https://www.openstreetmap.org/user/mvexel). You can book a free consultation, up to 1 hour, [here](https://cal.com/mvexel/30min).
-
-I infrequently write about what I do, experience, and think about. Tags are your friend here, for example [#geo](/tags/geo).
+I infrequently write about what I make, experience, and think about. Tags are your friend here, for example [#geo](/tags/geo).
