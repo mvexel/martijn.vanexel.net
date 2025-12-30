@@ -1,12 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
 
+/* Light mode colors (default) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-muted: #666666;
+    --text-light: #555555;
+    --border-color: #dddddd;
+    --border-light: #eeeeee;
+    --link-color: #0066cc;
+    --link-hover: #0052a3;
+    --code-bg: #f5f5f5;
+    --tag-bg: #f0f0f0;
+    --tag-hover: #e0e0e0;
+    --heading-accent: #0066cc;
+    --heading-dark: #444444;
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #242424;
+        --text-color: #e0e0e0;
+        --text-muted: #a0a0a0;
+        --text-light: #b0b0b0;
+        --border-color: #404040;
+        --border-light: #2a2a2a;
+        --link-color: #4d9fff;
+        --link-hover: #6db0ff;
+        --code-bg: #2a2a2a;
+        --tag-bg: #2a2a2a;
+        --tag-hover: #353535;
+        --heading-accent: #4d9fff;
+        --heading-dark: #c0c0c0;
+    }
+}
+
 body {
     font-family: 'PT Serif', Georgia, serif;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    color: #333;
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
 
 h1,
@@ -19,7 +56,7 @@ h6 {
 }
 
 header {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--border-color);
     margin-bottom: 2rem;
     padding-bottom: 1rem;
 }
@@ -41,7 +78,7 @@ main {
 h2 {
     font-size: 1.5rem;
     margin: 2rem 0 1rem 0;
-    border-bottom: 2px solid #0066cc;
+    border-bottom: 2px solid var(--heading-accent);
     padding-bottom: 0.3rem;
 }
 
@@ -50,7 +87,7 @@ ul {
 }
 
 a {
-    color: #0066cc;
+    color: var(--link-color);
 }
 
 a:hover {
@@ -65,7 +102,7 @@ a:hover {
 .post-item {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-light);
 }
 
 .post-item:last-child {
@@ -79,7 +116,7 @@ a:hover {
 
 .post-item a {
     text-decoration: none;
-    color: #0066cc;
+    color: var(--link-color);
 }
 
 .post-item p {
@@ -91,7 +128,7 @@ a:hover {
 }
 
 .post-meta {
-    color: #666;
+    color: var(--text-muted);
     font-size: 0.7rem;
 }
 
@@ -100,54 +137,54 @@ a:hover {
 }
 
 .post-tags a {
-    background: #f0f0f0;
+    background: var(--tag-bg);
     padding: 0.2rem 0.5rem;
     margin-right: 0.5rem;
     border-radius: 3px;
     text-decoration: none;
     font-size: 0.85rem;
-    color: #555;
+    color: var(--text-light);
 }
 
 .post-tags a:hover {
-    background: #e0e0e0;
+    background: var(--tag-hover);
 }
 
 article img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-color);
     border-radius: 6px;
 }
 
 article h1 {
     font-size: 1.5rem;
     margin: 2rem 0 1rem 0;
-    border-bottom: 2px solid #0066cc;
+    border-bottom: 2px solid var(--heading-accent);
     padding-bottom: 0.3rem;
 }
 
 article h2 {
     font-size: 1.3rem;
     margin: 1.5rem 0 0.75rem 0;
-    color: #333;
+    color: var(--text-color);
 }
 
 article h3 {
     font-size: 1.1rem;
     margin: 1.25rem 0 0.5rem 0;
-    color: #444;
+    color: var(--heading-dark);
 }
 
 pre {
-    background: #f5f5f5;
+    background: var(--code-bg);
     padding: 1rem;
     overflow-x: auto;
     border-radius: 4px;
 }
 
 code {
-    background: #f5f5f5;
+    background: var(--code-bg);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-family: "Courier New", monospace;
@@ -161,8 +198,8 @@ pre code {
 footer {
     margin-top: 3rem;
     padding-top: 1rem;
-    border-top: 1px solid #ddd;
-    color: #666;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
     font-size: 0.9rem;
 }
 
@@ -175,7 +212,7 @@ footer {
     font-size: 6rem;
     font-weight: bold;
     margin: 0 0 1rem 0;
-    color: #0066cc;
+    color: var(--heading-accent);
     line-height: 1;
 }
 
@@ -187,7 +224,7 @@ footer {
 .home-link {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #0066cc;
+    background: var(--link-color);
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -195,6 +232,6 @@ footer {
 }
 
 .home-link:hover {
-    background: #0052a3;
+    background: var(--link-hover);
     text-decoration: none;
 }
