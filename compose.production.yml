@@ -1,0 +1,26 @@
+name: martijn-vanexel-net
+
+networks:
+  ingress:
+    name: schaaltreinenhuis-ingress
+    external: true
+
+services:
+  site:
+    image: ${IMAGE_PREFIX:-ghcr.io/mvexel/martijn-vanexel-net}:latest
+    build:
+      context: .
+    pull_policy: ${IMAGE_PULL_POLICY:-always}
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      default:
+      ingress:
+        aliases:
+          - martijn-vanexel-net
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://127.0.0.1/"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
